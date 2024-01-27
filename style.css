@@ -1,0 +1,285 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+nav{
+
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.logo img{
+
+    width: 38px;
+}
+
+
+.other-elements img{
+width: 30px;
+
+
+}
+
+.btn{
+
+    width: 110px;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 800;
+    border-radius: 40px;
+    background-color: rgb(251,100,24);
+    color: white;
+
+    
+}
+
+.btn:hover{
+
+    transform: scale(1.10);
+    transition: 1s;
+    box-shadow: 0 4px 8px rgba(0,0,0,.010)
+
+}
+
+.other-elements, .btn, img, a{
+
+    margin-left: 20px;
+
+
+}
+
+.other-elements{
+
+    padding-right: 20px;
+}
+
+.other-elements a {
+
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.other-elements a:hover {
+border-bottom: 3px solid black;
+transition: 2ms;
+   
+}
+.flag{
+
+    position: relative;
+    top: 10px;
+}
+
+.menu{
+
+    position: relative;
+    top: 8px;
+}
+
+.cart{
+
+    position: relative;
+    top: 8px;
+}
+
+.cart:hover{
+
+    background-color: rgb(251,100,24);
+
+}
+
+.hero-module{
+
+    width: 100%;
+    height: 20%;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.overlap{
+
+    position: absolute;
+    bottom: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    top: 180px;
+
+}
+
+
+.overlap h2{
+
+    font-size: 4rem;
+    font-weight: 1000;
+    color: white;
+    line-height: 60px;
+
+}
+
+.overlap p{
+
+    padding-top: 20px;
+}
+
+
+.anchor{
+
+    
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+  
+
+
+}
+
+.anchor:hover{
+
+    border-bottom: 2px solid white;
+    transition: 2ms;
+}
+
+.buttons{
+
+    padding-top: 40px;
+}
+
+/* .bnt2{
+
+width: 100px;
+color: white;
+
+} */
+
+
+.btn1{
+    width: 100px;
+    height: 35px;
+    font-size: 10px;
+    font-weight: 800;
+    border-radius: 40px;
+
+
+}
+
+.btn1:hover{
+
+    transform: scale(0.90);
+    transition: 1s;
+}
+
+.bnt1:active{
+
+    width: 90px;
+    height: 32px;
+
+}
+
+.hero-video{
+
+    width: 100%;
+    border-bottom-left-radius: 50%;
+}
+
+/* third-part starts here */
+
+.third-part{
+
+    width: 100%;
+    height: 90vh;
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 18%;
+    position: relative;
+
+   
+
+
+}
+
+.third-part h2{
+
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+
+
+.card {
+
+    background-color: white;
+    color: black;
+    width: 280px;
+    height: 440px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+.card img{
+
+
+    width: 170px;
+    margin-top: 8px;
+    margin-left: 40px;
+
+
+}
+
+.card h3{
+
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 800;
+
+}
+.card p{
+
+    font-size: 13px;
+    line-height: 18px;
+    padding-top:40px ;
+    padding-left: 30px;
+}
+
+.cards{
+
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+}
