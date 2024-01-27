@@ -118,6 +118,11 @@ transition: 2ms;
 
 }
 
+.hero-video{
+
+    width: 100%;
+}
+
 
 .overlap{
 
@@ -214,13 +219,14 @@ color: white;
 .third-part{
 
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(bgimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-top-right-radius: 10%;
     border-bottom-left-radius: 18%;
     position: relative;
+    display: flex;
 
    
 
@@ -242,19 +248,19 @@ color: white;
 
     background-color: white;
     color: black;
-    width: 280px;
+    width: 350px;
     height: 440px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
+    border-radius: 12px;
 
 }
 
 .card img{
 
 
-    width: 170px;
-    margin-top: 8px;
-    margin-left: 40px;
+    width: 190px;
+    margin-top: 10px;
+    margin-left: 45px;
 
 
 }
@@ -268,8 +274,8 @@ color: white;
 }
 .card p{
 
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 21px;
     padding-top:40px ;
     padding-left: 30px;
 }
@@ -282,4 +288,115 @@ color: white;
     position: absolute;
     top: 280px;
     left: 100px;
+}
+
+/* fourth-part starts here: */
+
+
+.fourth-part{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246,246,246);
+    padding-top: 100px;
+    background-image: url(/saidimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fourth-content{
+
+    padding-left: 80px;
+    padding-top: 130px;
+
+
+}
+.png img{
+
+    width: 600px;
+
+}
+
+ .h2p h2{
+
+font-size: 5rem;
+font-weight:900;
+
+}
+
+.h2p p{
+
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.h2p a {
+
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(251,100,24);
+    font-weight: 800;
+    position: relative;
+    top: 15px;
+    right: 18px;
+}
+
+
+/* overlap2 starts */
+
+.overlap2{
+
+    display: flex;
+    gap: 23px;
+    padding-top: 100px;
+}
+
+
+.cardsecond{
+height: 490px;
+}
+.cardsecond h3{
+
+    font-size: 1.80rem;
+    font-weight: 800;
+    line-height: 32px;
+
+}
+
+
+.cardsecond h4{
+
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+    left: 32px;
+    top: 21px;
+
+}
+
+.cardsecond p{
+
+    position: relative;
+    bottom: 20px;
+}
+
+
+.cardsecond1 img{
+    width: 400PX;
+position: relative;
+bottom: 335PX;
+right: 70px;
+
+}
+
+
+.cardsecond2 img{
+    width: 360PX;
+    position: relative;
+    bottom: 203px;
+    right: 53px;
+
+
 }
