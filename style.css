@@ -296,12 +296,13 @@ color: white;
 .fourth-part{
 
     width: 100%;
-    height: 100vh;
     background-color: rgb(246,246,246);
     padding-top: 100px;
     background-image: url(/saidimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: yellow;
+    border-bottom-left-radius: 200px;
 }
 
 
@@ -351,6 +352,8 @@ font-weight:900;
     display: flex;
     gap: 23px;
     padding-top: 100px;
+    border-bottom-right-radius: 50px;
+    height: 50vh;
 }
 
 
@@ -400,3 +403,189 @@ right: 70px;
 
 
 }
+
+
+/* fifth-part starts here */
+
+.fifth-part{
+
+    width: 100%;
+    padding-top: 280px;
+    
+}
+
+.section1{
+
+    width: 100%;
+
+    height: 100vh;
+    padding-top: 150px;
+
+    background-image: url(/mainimg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px  0 0 0; /* Adjust the values to create a wave effect */
+}
+
+.section1 p{
+font-size: 28px;
+color: white;
+font-weight: 800;
+padding-left: 70px;
+line-height: 30px;
+
+}
+
+
+.section2{
+
+    width: 100%;
+
+    height: 100vh;
+    padding-top: 150px;
+
+    background-image: url(/mainimg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px  0 0 0; /* Adjust the values to create a wave effect */
+    padding-left: 100px;
+}
+
+
+.section2 h2{
+
+
+    font-size: 4.80rem;
+    color: white;
+    font-weight: 800;
+    line-height: 75px;
+    
+}
+
+.section2 span{
+
+    font-weight: 800;
+    color: white;
+    padding-bottom: 18px;
+}
+
+
+
+.section2 p{
+
+    font-size: 16px;
+    color: white;
+    padding-left: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 20px;
+
+}
+.smalldiv{
+display: flex;
+color: rgb(255,255,255);
+padding-top: 30px;
+padding-left: 46px;
+
+}
+
+.smalldiv img{
+
+    width: 50px;
+    border-radius: 50px;
+}
+
+.smalldiv p{
+
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    right: 165px;
+}
+
+.btnn{
+
+    width: 140px;
+    height: 48px;
+    font-size: 14px;
+}
+
+.btnnn{
+
+    padding-left: 20px;
+}
+
+
+
+/* three sec starts from here */
+.three-sec{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3,121,189);
+    
+}
+
+.left-content h2{
+
+    font-size: 4.20rem;
+    font-weight: 800;
+    line-height: 55px;
+    color: white;
+}
+
+.left-content{
+
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.left-content p{
+
+    padding-top: 10px;
+    font-size: 16px;
+    color:white;
+    padding-left: 5px;
+    line-height: 20px;
+}
+
+.sect1{
+
+    width: 350px;
+    height: 220px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.sect2{
+
+    background-color: blue;
+}
+
+.sect3{
+
+    background-color: purple;
+}
+
+
+.sect4{
+
+    background-color: red;
+}
+
+.leftside-divs{
+
+    width: 100%;
+    height: 100vh;
+    padding-left: 1000px;
+    position: relative;
+    bottom: 280px;
+    right: 15%;
+}
+
+
+
+
+
+
